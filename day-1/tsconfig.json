@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ES6",                // The JavaScript version to output (ES6/ES2015)
+    "module": "CommonJS",           // Module system (CommonJS for Node.js)
+    "strict": true,                 // Enable strict type checking
+    "esModuleInterop": true,        // Enable compatibility with CommonJS modules
+    "outDir": "./dist"              // Output directory for compiled JS files
+  },
+  "include": ["./src/**/*"],         // Include all TypeScript files in the src folder
+  "exclude": ["node_modules"]        // Exclude dependencies
+}
